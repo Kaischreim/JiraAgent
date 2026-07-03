@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "pull_requests": {
+    "Kaischreim/JiraAgent#3": {
+      "repository": "Kaischreim/JiraAgent",
+      "pr_number": 3,
+      "jira_key": "PROJ-123",
+      "pr_url": "https://github.com/Kaischreim/JiraAgent/pull/3",
+      "title": "PROJ-123: Add Jira status automation",
+      "work_area": "app",
+      "runs": [
+        {
+          "timestamp_utc": "2026-07-03T18:30:00+00:00",
+          "jira_status_before": "In Progress",
+          "jira_status_after": "In Review",
+          "summary": "Claude's summary goes here.",
+          "difficulty": "medium",
+          "difficulty_reason": "Claude's reason goes here.",
+          "risks_or_review_focus": [
+            "Check Jira transition handling.",
+            "Verify error handling."
+          ],
+          "reviewer_result": "Requested review from @Kaischreim."
+        }
+      ]
+    }
+  }
+}
