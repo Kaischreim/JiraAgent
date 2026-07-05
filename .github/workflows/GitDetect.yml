@@ -72,4 +72,4 @@ jobs:
           CLAUDE_MODEL: "claude-sonnet-5"
           MAX_DIFF_CHARS: "30000"
 
-        run: python Agent/prTriage/triage_pr.py
+        run: python Agent/prTriage/JiraTriage.py
